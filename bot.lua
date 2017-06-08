@@ -1,6 +1,6 @@
 redis = (loadfile "./redis.lua")()
 redis = redis.connect('127.0.0.1', 6379)
-redis:select(3)
+redis:select(4)
 ADMIN =  65761134
 
 function ok_cb(extra, success, result)
